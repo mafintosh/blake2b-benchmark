@@ -1,7 +1,7 @@
 {
   "name": "blake2b-benchmark",
   "version": "0.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "Benchmark of various Blake2b implementations",
   "main": "index.js",
   "dependencies": {
     "blake2b": "^1.2.0",
