@@ -1,0 +1,15 @@
+NANOBENCH version 2
+> node index.js blake2b
+
+# hash 100000x 128b
+ok ~1.01 s (1 s + 12673122 ns)
+
+# hash 1000x 4kb
+ok ~327 ms (0 s + 326822314 ns)
+
+# hash 1000x 64kb
+ok ~5.25 s (5 s + 254090932 ns)
+
+all benchmarks completed
+ok ~6.59 s (6 s + 593586368 ns)
+

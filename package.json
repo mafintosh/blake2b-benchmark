@@ -1,0 +1,25 @@
+{
+  "name": "blake2b-benchmark",
+  "version": "0.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "index.js",
+  "dependencies": {
+    "blake2b": "^1.2.0",
+    "blake2b-wasm": "^1.0.0",
+    "sodium-native": "^1.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bench": "node index.js sodium-native > sodium-native.txt && node index.js blake2b > blake2b.txt && node index.js blake2b-wasm > blake2b-wasm.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/blake2b-benchmark.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/blake2b-benchmark/issues"
+  },
+  "homepage": "https://github.com/mafintosh/blake2b-benchmark"
+}

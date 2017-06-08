@@ -1,0 +1,15 @@
+NANOBENCH version 2
+> node index.js sodium-native
+
+# hash 100000x 128b
+ok ~115 ms (0 s + 115110995 ns)
+
+# hash 1000x 4kb
+ok ~6.09 ms (0 s + 6093677 ns)
+
+# hash 1000x 64kb
+ok ~101 ms (0 s + 100862480 ns)
+
+all benchmarks completed
+ok ~222 ms (0 s + 222067152 ns)
+
