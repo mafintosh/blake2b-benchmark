@@ -16,7 +16,7 @@ Here are the results from running the bench on my 2015, MacBook 12".
 
 #### Using [sodium-native](https://github.com/sodium-friends/sodium-native) (Node.js native module)
 
-``` js
+``` txt
 NANOBENCH version 2
 > node index.js sodium-native
 
@@ -35,7 +35,7 @@ ok ~222 ms (0 s + 222067152 ns)
 
 #### Using [blake2b-wasm](https://github.com/mafintosh/blake2b-wasm) (WebAssembly)
 
-``` js
+``` txt
 NANOBENCH version 2
 > node index.js blake2b-wasm
 
@@ -54,7 +54,7 @@ ok ~549 ms (0 s + 549083537 ns)
 
 #### Using [blake2b](https://github.com/emilbayes/blake2b) (Pure Javascript)
 
-``` js
+``` txt
 NANOBENCH version 2
 > node index.js blake2b
 
